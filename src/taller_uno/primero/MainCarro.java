@@ -1,4 +1,4 @@
-package taller_uno;
+package taller_uno.primero;
 
 import java.util.Scanner;
 
