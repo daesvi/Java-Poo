@@ -2,9 +2,9 @@ package composicion_agregacion.taller_uno.agregacion;
 
 public class Estudiante {
     // Atributos
-    String nombre;
-    int edad;
-    int ID;
+    private String nombre;
+    private int edad;
+    private int ID;
 
     // Constructor
     Estudiante(String nombre, int edad, int ID){

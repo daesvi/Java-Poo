@@ -2,9 +2,9 @@ package composicion_agregacion.taller_uno.agregacion;
 
 public class Universidad {
     // Atributos
-    String nombre;
-    Estudiante[] estudiantes;
-    int cantEstudiantes;
+    private String nombre;
+    private Estudiante[] estudiantes;
+    private int cantEstudiantes;
 
     // Constructor
     Universidad(String nombre){
@@ -27,7 +27,7 @@ public class Universidad {
         System.out.println("Estudiantes:");
         for (int i = 0; i < this.cantEstudiantes; i++) {
             Estudiante estudiante = getEstudiantes()[i];
-            System.out.println(" " + (i+1) + ".\n  Nombre: " + estudiante.nombre + "\n  Edad: " + estudiante.edad + "\n  ID Estudiante: " + estudiante.ID);
+            System.out.println(" " + (i+1) + ".\n  Nombre: " + estudiante.getNombre() + "\n  Edad: " + estudiante.getEdad() + "\n  ID Estudiante: " + estudiante.getID());
         }
     }
 
